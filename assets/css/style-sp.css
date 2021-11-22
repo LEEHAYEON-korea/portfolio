@@ -1,0 +1,224 @@
+@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 14pt;
+			}
+            .icon.list:before {
+				font-size: 5.5rem;
+			}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+			.header h1 {
+                font-size: 6.5vw;
+            }
+    .header{
+     padding: 3em 0 0 0;
+    }
+    .logo img{
+            max-width: 25%;
+    margin-top: 1.2em;
+    margin-left: 1em;
+    }
+    
+    .main01{
+        padding: 1em 1em 1em 1em;
+        text-align: center;
+    }
+    .main-header h2{
+    font-size: 4vw;
+    }
+    .main-header h3{
+    font-size: 3.5vw;
+    }
+    .main-header h4{
+    font-size: 3vw;
+    }
+    .info{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .info-p {
+    font-size: 2vw;
+    }
+    .info-maintext {
+    padding: 0 0 0 0;
+    -webkit-text-stroke: 1px #212121;
+    }
+    .info-maintext h1 {
+    font-size: 5vw;
+    }
+    .main > .main-contents {
+    padding: 3em 0em 3em 0em;
+}
+    .lists li {
+    width: 50%;
+    }
+        .lists li h3 {
+            font-size: 4vw;
+        }
+        .lists li p {
+            font-size: 2.5vw;
+        }
+    .lists{
+    margin-bottom: 0;
+    }
+    .footer {
+    padding: 2em 0 0 0;
+    }
+    .footer-p{
+        font-size: 1.5vw;
+    }
+    dl {
+    font-size: 1.5vw;
+    }
+    .footer01{
+    padding-left: 0;
+    }
+    .footer02{
+    padding-left: 10%;
+    }
+    .footer h2 {
+        font-size: 4vw;
+    }
+            .icon.list {
+                margin: 0 0 1.5em 0;
+                padding: 0.35em;
+            }
+            .icon.list:before {
+                font-size: 3.5rem;
+            }
+            .subnav {
+				display: none;
+			}
+
+				.subnav + .main {
+					padding-top: 0;
+				}
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .header h1 {
+        font-size: 6.5vw;
+    }
+
+    .header {
+        padding: 3em 0 0 0;
+    }
+
+    .logo img {
+        max-width: 25%;
+        margin-top: 1.2em;
+        margin-left: 1em;
+    }
+
+    .main01 {
+        padding: 1em 1em 1em 1em;
+        text-align: center;
+    }
+
+    .main-header h2 {
+        font-size: 4vw;
+    }
+
+    .main-header h3 {
+        font-size: 3.5vw;
+    }
+
+    .main-header h4 {
+        font-size: 3vw;
+    }
+
+    .info {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .info-p {
+        font-size: 3.5vw;
+    }
+
+    .info-maintext {
+        padding: 0 0 0 0;
+        -webkit-text-stroke: 1px #212121;
+    }
+
+        .info-maintext h1 {
+            font-size: 7vw;
+        }
+
+    .main > .main-contents {
+        padding: 3em 0em 3em 0em;
+    }
+
+    .lists li {
+        width: 50%;
+    }
+
+        .lists li h3 {
+            font-size: 4vw;
+        }
+
+        .lists li p {
+            font-size: 3vw;
+        }
+
+    .lists {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        display: block;
+        padding: 1em 1em 0.2em 0;
+        padding-left: 24%;
+    }
+
+    .footer01 {
+        padding-left: 0;
+    }
+
+    .footer02 {
+        padding-left: 0;
+        padding-top: 1em;
+    }
+
+    .icon.list {
+        margin: 0 0 1.5em 0;
+        padding: 0.35em;
+    }
+
+        .icon.list:before {
+            font-size: 3.5rem;
+        }
+
+    .subnav {
+        display: none;
+    }
+
+        .subnav + .main {
+            padding-top: 0;
+        }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+}
+
+@media screen and (max-width: 360px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+            }
+
+}
